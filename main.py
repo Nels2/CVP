@@ -4,7 +4,7 @@ print("Version 1")
 Accounting = True
 while Accounting:
     print("")
-    print("There are a total of eight options")
+    print("There are a total of six options")
     print(" ")
     print("1. Total Revenue")
     print("2. Total Cost")
