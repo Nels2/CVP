@@ -19,37 +19,37 @@ while Accounting:
         a = float(input("enter SP: $"))
         b = float(input("enter Q: $"))
         print("Total Revenue : $" + str(float(a * b)))
-    if option == '2':
+    elif option == '2':
         print("Total Cost- variable cost multiplied by units produced plus fixed costs")
         c = float(input("enter VC: $"))
         d = float(input("enter Q: $"))
         e = float(input("enter FC: $"))
         print("Total Cost : $" + str(float(c * d + e)))
-    if option == '3':
+    elif option == '3':
         print("Breakeven- total revenue equals total costs, profit equals zero.")
         f = float(input("enter SP: $"))
         g = float(input("enter Q(units sold): $"))
         h = float(input("enter VC: $"))
         i = float(input("enter FC: $"))
         print("Breakeven : $" + str(float((f * g) - (h * g) - i)))
-    if option == '4':
+    elif option == '4':
         print("Contribution Margin (4)- selling price minus variable cost.")
         j = float(input("enter SP: $"))
         k = float(input("enter VC: $"))
         print("Contribution Margin : $" + str(float(j - k)))
-    if option == '4a':
+    elif option == '4a':
         print("Contribution Margin (4a)- breakeven = CM*Q-FC=0")
         l = float(input("enter CM: $"))
         m = float(input("enter Q: $"))
         n = float(input("enter FC: $"))
         print("Contribution Margin Breakeven : $" + str(float(l * m - n)))
-    if option == '5':
+    elif option == '5':
         print("Target Profit b4 taxes")
         o = float(input("enter CM: $"))
         p = float(input("enter Q: $"))
         q = float(input("enter FC: $"))
         print("b4 taxes profit : $" + str(float(o * p - q)))
-    if option == '6':
+    elif option == '6':
         print("Target Profit after taxes.")
         r = float(input("enter CM: $"))
         s = float(input("enter Q: $"))
